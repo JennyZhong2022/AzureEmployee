@@ -22,8 +22,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./employee-creator
 
       - name: Run tests
         run: npm run test
-        working-directory: ./employee-creator
