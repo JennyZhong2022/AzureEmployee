@@ -1,7 +1,9 @@
 import { EmployeeFormData } from "../components/EmployForm/schema";
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_APP_API_BASE_URL;
+// const baseURL = import.meta.env.VITE_APP_API_BASE_URL;
+const baseURL =
+  "https://employeecreator-hdh2h9afh5hedsdd.australiasoutheast-01.azurewebsites.net/employees";
 
 export interface EmployeeResponse {
   id: number;
